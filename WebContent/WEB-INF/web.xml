@@ -1,0 +1,101 @@
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee   
+    http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">  
+<servlet>  
+	<servlet-name>MainServlet</servlet-name>  
+	<servlet-class>Servlet.MainServlet</servlet-class>  
+</servlet>  
+<servlet-mapping>  
+	<servlet-name>MainServlet</servlet-name>  
+	<url-pattern>/MainServlet</url-pattern> 
+</servlet-mapping>
+<servlet>  
+	<servlet-name>UserFoundServlet</servlet-name>  
+	<servlet-class>Servlet.UserFoundServlet</servlet-class>  
+</servlet>  
+<servlet-mapping>  
+	<servlet-name>UserFoundServlet</servlet-name>  
+	<url-pattern>/UserFoundServlet</url-pattern> 
+</servlet-mapping>
+<servlet>  
+	<servlet-name>joinservlet</servlet-name>  
+	<servlet-class>Servlet.joinservlet</servlet-class>  
+</servlet>  
+<servlet-mapping>  
+	<servlet-name>joinservlet</servlet-name>  
+	<url-pattern>/joinservlet</url-pattern>  
+</servlet-mapping>
+<servlet>  
+	<servlet-name>ALLbookServlet</servlet-name>  
+	<servlet-class>Servlet.ALLbookServlet</servlet-class>  
+</servlet>  
+<servlet-mapping>  
+	<servlet-name>ALLbookServlet</servlet-name>  
+	<url-pattern>/ALLbookServlet</url-pattern>  
+</servlet-mapping>
+<servlet>  
+	<servlet-name>UserALLbookServlet</servlet-name>  
+	<servlet-class>Servlet.UserALLbookServlet</servlet-class>  
+</servlet>  
+<servlet-mapping>  
+	<servlet-name>UserALLbookServlet</servlet-name>  
+	<url-pattern>/UserALLbookServlet</url-pattern>  
+</servlet-mapping>
+<servlet>  
+	<servlet-name>JoinbookServlet</servlet-name>  
+	<servlet-class>Servlet.JoinbookServlet</servlet-class>  
+</servlet>  
+<servlet-mapping>  
+	<servlet-name>JoinbookServlet</servlet-name>  
+	<url-pattern>/JoinbookServlet</url-pattern>  
+</servlet-mapping>
+<servlet>  
+	<servlet-name>DelbookServlet</servlet-name>  
+	<servlet-class>Servlet.DelbookServlet</servlet-class>  
+</servlet>  
+<servlet-mapping>  
+	<servlet-name>DelbookServlet</servlet-name>  
+	<url-pattern>/DelbookServlet</url-pattern>  
+</servlet-mapping>
+<servlet>  
+	<servlet-name>FoundServlet</servlet-name>  
+	<servlet-class>Servlet.FoundServlet</servlet-class>  
+</servlet>  
+<servlet-mapping>  
+	<servlet-name>FoundServlet</servlet-name>  
+	<url-pattern>/FoundServlet</url-pattern>  
+</servlet-mapping>
+<servlet>  
+	<servlet-name>adminServlet</servlet-name>  
+	<servlet-class>Servlet.adminServlet</servlet-class>  
+</servlet>  
+<servlet-mapping>  
+	<servlet-name>adminServlet</servlet-name>  
+	<url-pattern>/adminServlet</url-pattern>  
+</servlet-mapping>
+<servlet>  
+	<servlet-name>SelectbookServlet</servlet-name>  
+	<servlet-class>Servlet.SelectbookServlet</servlet-class>  
+</servlet>  
+<servlet-mapping>  
+	<servlet-name>SelectbookServlet</servlet-name>  
+	<url-pattern>/SelectbookServlet</url-pattern>  
+</servlet-mapping>
+<servlet>  
+	<servlet-name>userSelectServlet</servlet-name>  
+	<servlet-class>Servlet.userSelectServlet</servlet-class>  
+</servlet>  
+<servlet-mapping>  
+	<servlet-name>userSelectServlet</servlet-name>  
+	<url-pattern>/userSelectServlet</url-pattern>  
+</servlet-mapping>
+<servlet>  
+	<servlet-name>ReturntbookServlet</servlet-name>  
+	<servlet-class>Servlet.ReturntbookServlet</servlet-class>  
+</servlet>  
+<servlet-mapping>  
+	<servlet-name>ReturntbookServlet</servlet-name>  
+	<url-pattern>/ReturntbookServlet</url-pattern>  
+</servlet-mapping>
+</web-app>  
